@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var PokemonSportif_1 = require("./classes/concrete/PokemonSportif");
+var PokemonCasanier_1 = require("./classes/concrete/PokemonCasanier");
+var PokemonMer_1 = require("./classes/concrete/PokemonMer");
+var PokemonCroisiere_1 = require("./classes/concrete/PokemonCroisiere");
+var pikachu = new PokemonSportif_1.PokemonSportif('Pikachu', 5.1, 2, 0.85, 120);
+console.log(pikachu.toString());
+var salameche = new PokemonCasanier_1.PokemonCasanier('Salameche', 12, 2, 0.65, 8);
+console.log(salameche.toString());
+var rondoudou = new PokemonMer_1.PokemonMer('Rondoudou', 45, 2);
+console.log(rondoudou.toString());
+var bulbizarre = new PokemonCroisiere_1.PokemonCroisiere('Bulbizarre', 15, 3);
+console.log(bulbizarre.toString());
